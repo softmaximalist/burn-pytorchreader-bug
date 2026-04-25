@@ -1,0 +1,10 @@
+[package]
+name = "burn-pytorchreader-bug"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+burn = { version = "=0.21.0-pre.3", features = ["ndarray"] }
+burn-std = { version = "=0.21.0-pre.3", features = ["network"] }
+burn-store = { version = "=0.21.0-pre.3", features = ["pytorch"] }
+dirs = { version = "6.0.0", optional = true }
